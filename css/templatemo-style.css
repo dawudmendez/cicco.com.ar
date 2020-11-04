@@ -6,6 +6,11 @@ https://templatemo.com/tm-518-sentra
 
 */
 
+.slider_h1{
+  text-shadow: 1px 1px 3px black;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -414,15 +419,15 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/slide_1_new.jpg);
+  background-image: url(../imagenes/arbol_2.jpg);
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/slide_2_new.jpg);
+  background-image: url(../imagenes/cicco-arbusto.png);
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/slide_3_new.jpg);
+  background-image: url(../imagenes/cicco-mate_2.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
