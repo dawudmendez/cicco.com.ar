@@ -16,9 +16,10 @@ body {
 }
 
 p {
-  font-size: 13px;
+  font-size: 15px;
   color: #7a7a7a;
   line-height: 24px;
+  text-align: justify;
 }
 
 .page-content {
@@ -66,7 +67,7 @@ p {
   font-size: 15px;
   line-height: 26px;
   color: #343434;
-  position: absolute;
+  position: relative;
   top: 12.5px;
 }
 
@@ -416,10 +417,12 @@ header {
   background-position: center center;
   background-size: cover;
   display: block;
+  
 }
 
 .Modern-Slider .item-1 .image {
   background-image: url(../imagenes/arbol_2.jpg);
+  
 }
 
 .Modern-Slider .item-2 .image {
@@ -461,7 +464,7 @@ header {
 
 /* Featured Style */
 
-#featured {
+#featured  {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
@@ -604,6 +607,7 @@ header {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
 }
 
 #projects .masonry {
@@ -621,28 +625,162 @@ header {
 #projects .masonry .item img:hover {
   opacity: 0.5;
 }
+/*Obras*/
+#obras  {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+}
 
+#obras .section-heading {
+  margin-right: 20%;
+}
+
+#obras .content-section {
+  display: inline-block;
+  position: relative;
+}
+
+#obras .owl-dots {
+  margin-top: 40px;
+}
+
+#obras .owl-dots .owl-dot span  {
+  width: 12px;
+  height: 12px;
+  background-color: #cdcdcd!important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+#obras .owl-dots .active span {
+  background-color: #45489a!important;
+}
+
+#obras .owl-dots button {
+  outline: none;
+}
+
+#obras .owl-nav {
+  position: absolute;
+  display: inline-block;
+  top: -110px;
+  right: 0;
+}
+
+#obras .owl-nav button:focus {
+  outline: none;
+}
+
+#obras .owl-nav .owl-prev span {
+  margin-right: 10px;
+}
+
+#obras .owl-nav .owl-next span, #obras .owl-nav .owl-prev span {
+  outline: none;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 42px;
+  background-color: #eee;
+  color: #232323;
+  font-size: 42px;
+  transition: all 0.5s;
+}
+
+#obras .owl-nav span:hover {
+  background-color: #45489a;
+  color: #fff;
+}
+
+#obras .item {
+  text-align: left;
+  position: relative;
+  z-index: 10;
+}
+
+#obras .item .image {
+  position: relative;
+}
+
+#obras .item .image img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#obras .item .image .featured-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(69,72,154, 0.9);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
+
+#obras .item:hover .featured-button a {
+  bottom: 0;
+  opacity: 1;
+}
+
+#obras .item .text-content {
+  padding-top: 20px;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+#obras .item .text-content h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#obras .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
 
 
 /* Video Presentation Style */
 
-#video {
-  text-align: center;
-  background-color: #f4f4f4;
-  padding: 100px 60px;
+/* #video {
+  text-align: Left;
+
 }
 
 #video .section-heading {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: Left;
 }
 
 #video .section-heading h1 {
   display: block;
   margin: 0px;
-}
+} */
 
-#video .section-heading p {
+/*#video .section-heading p {
   position: relative;
   margin: 0px;
 }
@@ -721,7 +859,7 @@ header {
   opacity: 1;
   -webkit-transition: all .6s .8s;
   transition: all .6s .8s;
-}
+} */
 
 
 
@@ -851,6 +989,8 @@ header {
 
 #contact {
   padding-top: 0px;
+  border: 1px solid #eee;
+
 }
 
 #contact-content {
@@ -911,6 +1051,22 @@ header {
   color: #232323;
   background-color: #f4f4f4;
 }
+
+#contact .social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+
+#contact .social-icons li a {
+  font-size: 32px;
+  color: #45489a;
+  transition: all 0.5s;
+}
+
+
 
 
 
@@ -1053,7 +1209,7 @@ header {
   #video {
     padding-left: 15px;
     padding-right: 15px;
-  }
+  } 
 
   #blog {
     padding-left: 15px;
