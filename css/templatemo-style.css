@@ -427,16 +427,16 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../imagenes/cicco_arriba_patio.jpeg);
+  background-image: url(../imagenes/cicco_medina_frente.jpg);
   
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../imagenes/cicco-arbusto.png);
+  background-image: url(../imagenes/cicco_camello2.jpeg);
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../imagenes/cicco_docente.jpeg);
+  background-image: url(../imagenes/cicco_sufi.jpeg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
