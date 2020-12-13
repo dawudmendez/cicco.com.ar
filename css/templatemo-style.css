@@ -91,6 +91,10 @@ p {
   color: #fff;
 }
 
+.accent-button {
+  padding-top: 20px;
+}
+
 .accent-button a {
   font-size: 13px;
   font-weight: 600;
