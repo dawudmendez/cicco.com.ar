@@ -99,7 +99,7 @@ p {
   font-size: 13px;
   font-weight: 600;
   color: #fff;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   background-color: #45489a;
   display: inline-block;
   height: 44px;
