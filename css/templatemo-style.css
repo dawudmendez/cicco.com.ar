@@ -427,7 +427,7 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../imagenes/cicco_medina_frente.jpg);
+  background-image: url(../imagenes/cicco_sufi.jpeg);
   
 }
 
@@ -436,7 +436,7 @@ header {
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../imagenes/cicco_sufi.jpeg);
+  background-image: url(../imagenes/cicco_medina_frente.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
