@@ -255,7 +255,7 @@ header {
   text-decoration: none!important;
   font-size: 15px;
   letter-spacing: 0.5px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 .circle{
   margin-right: 5px;
